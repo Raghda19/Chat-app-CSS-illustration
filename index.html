@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [chat-app-css-illustration-master]</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/2fc2258fd4.js" crossorigin="anonymous"></script>
+
+  <!--Font Family-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <section>
+
+    <!--The Left Background -->
+
+  <div id="Left-Background"></div>
+
+  <!--App design -->
+
+  <main id="App">
+<!--Avater data -->
+<div id="App-containt">
+<div id="table-div">
+  <table>
+    <tbody id="Table-Body">
+      <tr>
+        <td id="arrow-icon"><i class="fa-solid fa-angle-left" style="color: #fff;"></i></td>
+        <td class="Avater-data"><img id="Avater" src="images/avatar.jpg" alt=""></td>
+          <td>
+            <h1 id="Avater-Name">Samuel Green</h1>
+            <h3>Available to Walk</h3>
+          </td>
+          <td id="dot-icon"><i class="fa-sharp fa-solid fa-ellipsis-vertical" style="color: #fff;"></i></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+ <!--Left Massages -->
+
+<h4 id="first-h4"> That sounds great. I’d be <br> happy with that.</h4>
+<h4 id="secound-h4"> Could you send over some <br> pictures of your dog, please?</h4>
+ 
+<!--Dog Pictures -->
+
+<div id="dogs-div">
+<img  class="dogs-images" src="images/dog-image-1.jpg" alt="">
+<img class="dogs-images" src="images/dog-image-2.jpg" alt="">
+<img class="dogs-images" src="images/dog-image-3.jpg" alt="">
+</div>
+
+<!--Right Massages -->
+
+ <h5 id="first-h5">Here are a few pictures. She’s <br> a happy girl!</h5> 
+<h5 id="secound-h5">Can you make it?</h5>
+  
+<!--Left Massages (Third one) -->
+
+<h4 id="third-h4"> She looks so happy! The time <br> we discussed works. How <br> long shall I take her out for?</h4>
+
+<!--Radio Buttun -->
+<div id="first-radio-buttun">
+  <input type="radio"  id="minute-walk"   value="minute-walk">
+  <label for="minute-walk" class="radio-text" >  30 minute walk <b>$29</b> </label>
+</div> 
+  
+<div id="secound-radio-buttun">
+  <input type="radio"   id="hour-walk"  value="hour-walk">
+  <label for="hour-walk" class="radio-text"> 1 hour walk <b id="secound-bold">$49</b> </label>
+</div>
+
+<!--placeholder Buttun -->
+ 
+  <input id="placeholder" type="text" placeholder="Type a message…"><i class="fa-solid fa-circle-chevron-right fa-2xl" style="color: hsl(271, 36%, 24%);"></i>
+ 
+</div>
+</main>
+
+<!--The right Background -->
+
+<div id="right-Background"></div>
+
+
+<!--The paragraph section-->
+
+<div id="paragraph">
+  <h1>Simple booking</h1>
+
+  <p>Stay in touch with our dog walkers through the chat   interface. This makes it easy to 
+    discuss arrangements and  make bookings. Once the walk has been completed you can  rate 
+    your walker and book again all through the chat.
+  </p>
+</div>
+</section>
+
+<!--The footer section-->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Raghda Mohamed</a>.
+  </div>
+</body>
+</html>
