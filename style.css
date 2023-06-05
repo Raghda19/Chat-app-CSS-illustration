@@ -3,7 +3,7 @@ body{
     background-color: hsl(270, 20%, 96%);
     display: inline-block;
     height: 100vh;
-    max-width: 1440px;
+    width: 1440px;
     Font-size: 16px
 }
 
